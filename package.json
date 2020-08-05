@@ -1,0 +1,21 @@
+{
+  "name": "cv-cli",
+  "version": "0.0.1",
+  "description": "a project scaffold",
+  "main": "index.js",
+  "bin": {
+    "cv-cli": "bin/index.js"
+  },
+  "repository": "https://github.com/cvnine/cv-cli.git",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0",
+    "execa": "^4.0.3",
+    "figlet": "^1.4.0",
+    "fs-extra": "^9.0.1",
+    "inquirer": "^7.3.0",
+    "minimist": "^1.2.5",
+    "ora": "^4.0.4"
+  }
+}
