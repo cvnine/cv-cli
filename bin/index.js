@@ -10,7 +10,7 @@ program
 
 program
     .command('create <app-name>')
-    .description('Create a new App')
+    .description('Create a new React App')
     .action(name => {
         console.log(chalk.green(`IH CLI v${require('../package.json').version}`))
         const create = require('../lib/create');
@@ -20,7 +20,7 @@ program
 program
     .arguments('<command>')
     .action(cmd => {
-        console.log(chalk.red(`Unknown command ${chalk.yellow(cmd)}.`));
+        console.log(chalk.red(`❌ Unknown command ${chalk.yellow(cmd)}.`));
         program.outputHelp()
     })
 
