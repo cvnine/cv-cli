@@ -2,7 +2,6 @@
   "name": "cv-cli",
   "version": "0.0.7",
   "description": "a project scaffold",
-  "main": "index.js",
   "bin": {
     "cv-cli": "bin/index.js"
   },
